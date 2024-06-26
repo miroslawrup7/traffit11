@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css?cache_bust=123" />
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <title>Grupa Progres</title>
+</head>
+
+<body>
+    <main>
+
+        <h3 id="t_1">Znajdź ofertę pracy dopasowaną do Ciebie</h3>
+        <div class="filters-container">
+            <div class="wrapper one">
+                <div class="element job">
+                    <label id="t_2" for="job">Stanowisko</label>
+                    <input type="text" id="job">
+                    <div class="clear-btn"><img src="./img/circle-xmark.svg" alt="xmark"></div>
+                </div>
+                <div class="drop-down-container city">
+                    <div class="element drop-down">
+                        <div class="list-wrapper">
+                            <div id="t_3" class="list-title">Miasto</div>
+                            <div class="selected-options"></div>
+                            <div class="list">
+                                <ul></ul>
+                            </div>
+                        </div>
+                        <img class="arrow-down" src="./img/angle-down.svg" alt="angle-down">
+
+                    </div>
+                    <div class="filters-quantity"></div>
+                    <div class="clear-btn"><img src="./img/circle-xmark.svg" alt="xmark"></div>
+                </div>
+                <div class="drop-down-container distance">
+                    <div class="element drop-down">
+                        <div class="list-wrapper">
+                            <div class="list-title" data-distance="0">+0 km</div>
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-0" name="distance" value="0">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-0">+0 km</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-1" name="distance" value="10">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-1">+10 km</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-2" name="distance" value="30">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-2">+30 km</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-3" name="distance" value="50">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-3">+50 km</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-4" name="distance" value="80">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-4">+80 km</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-5" name="distance" value="100">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-5">+100 km</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="checkbox-container-small">
+                                            <label class="checkbox">
+                                                <input type="radio" id="distance-6" name="distance" value="150">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="label-text" for="distance-6">+150 km</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <img class="arrow-down" src="./img/angle-down.svg" alt="angle-down">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper two">
+                <div id="t_4" class="element search-btn">Szukaj</div>
+                <div id="t_5" class="clear-all-filters">Wyczyść wszystkie filtry</div>
+            </div>
+            <div class="advanced-container">
+                <div class="wrapper three">
+                    <div class="element remote checkbox-container">
+                        <label class="checkbox">
+                            <input type="checkbox" id="remote" name="remote" value="remote">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label id="t_6" class="label-text" for="remote">Praca zdalna</label>
+                    </div>
+                    <div class="element relocation checkbox-container">
+                        <label class="checkbox">
+                            <input type="checkbox" id="relocation" name="relocation" value="relocation">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label id="t_7" class="label-text" for="relocation">Bonus relokacja</label>
+                    </div>
+                </div>
+                <div class="wrapper four">
+                    <div class="drop-down-container sector">
+                        <div class="element drop-down">
+                            <div class="list-wrapper">
+                                <div id="t_8" class="list-title">Branża</div>
+                                <div class="selected-options"></div>
+                                <div class="list">
+                                    <ul></ul>
+                                </div>
+                            </div>
+                            <img class="arrow-down" src="./img/angle-down.svg" alt="angle-down">
+                        </div>
+
+                        <div class="filters-quantity">5</div>
+                        <div class="clear-btn"><img src="./img/circle-xmark.svg" alt="xmark"></div>
+                    </div>
+                    <div class="drop-down-container employment-form">
+                        <div class="element drop-down">
+                            <div class="list-wrapper">
+                                <div id="t_9" class="list-title">Forma zatrudnienia</div>
+                                <div class="selected-options"></div>
+                                <div class="list">
+                                    <ul></ul>
+                                </div>
+                            </div>
+                            <img class="arrow-down" src="./img/angle-down.svg" alt="angle-down">
+                        </div>
+                        <div class="filters-quantity">5</div>
+                        <div class="clear-btn"><img src="./img/circle-xmark.svg" alt="xmark"></div>
+                    </div>
+                    <div class="drop-down-container working-hours">
+                        <div class="element drop-down">
+                            <div class="list-wrapper">
+                                <div id="t_10" class="list-title">Wymiar pracy</div>
+                                <div class="selected-options"></div>
+                                <div class="list">
+                                    <ul></ul>
+                                </div>
+                            </div>
+                            <img class="arrow-down" src="./img/angle-down.svg" alt="angle-down">
+                        </div>
+                        <div class="filters-quantity">5</div>
+                        <div class="clear-btn"><img src="./img/circle-xmark.svg" alt="xmark"></div>
+                    </div>
+                    <div class="drop-down-container language">
+                        <div class="element drop-down">
+                            <div class="list-wrapper">
+                                <div id="t_11" class="list-title">Język</div>
+                                <div class="selected-options"></div>
+                                <div class="list">
+                                    <ul></ul>
+                                </div>
+                            </div>
+                            <img class="arrow-down" src="./img/angle-down.svg" alt="angle-down">
+                        </div>
+                        <div class="filters-quantity">5</div>
+                        <div class="clear-btn"><img src="./img/circle-xmark.svg" alt="xmark"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="wrapper five">
+                <div class="element advanced-search-btn">
+                    <img class="sliders" src="./img/sliders.svg" alt="sliders">
+                    <span id="t_12">Wyszukiwanie zaawansowane</span>
+                    <img class="arrow-down big" src="./img/angle-down.svg" alt="angle-down">
+                </div>
+            </div>
+        </div>
+
+        <div class="awarded"></div>
+
+        <div class="results"></div>
+
+        <div class="pages-container">
+            <div class="pages"></div>
+            <div class="records-on-page-container">
+                <select class="records-on-page" name="records-on-page" id="records-on-page">
+                    <option>10</option>
+                    <option selected="selected">20</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select>
+                <div id="t_13" class="label">ogłoszeń na stronie</div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script type="module" src="./js/main.min.js?cache_bust=123"></script>
+</body>
+
+</html>
