@@ -955,6 +955,7 @@ const createFilterLists = (filterConfigData) => {
     }
 
     if (filterJobTypeList.length > 0) {
+
         filterJobTypeList.sort(function (a, b) {
             return a.localeCompare(b);
         });
@@ -1515,6 +1516,10 @@ const createDataForFilters = (
     }
 
     // JobTypeList
+
+    if (Array.isArray(jobType)) {
+        jobType = jobType[0]
+    }
 
     if (filterJobTypeList.indexOf(jobType) === -1 && jobType !== undefined) {
         filterJobTypeList.push(jobType)

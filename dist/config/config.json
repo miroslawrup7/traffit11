@@ -1,22 +1,18 @@
 {
     "location_visible": true,
-    "remote_visible": true,
-    "relocation_visible": true,
+    "remote_visible": false,
+    "relocation_visible": false,
     "branche_visible": true,
-    "language_visible": true,
+    "language_visible": false,
     "remote_filter": false,
-    "branche_filter": [
-        "Opakowania i Druk",
-        "Magazyn"
-    ],
     "language_filter": [
-        "ru",
-        "pl"
+        "uk"
     ],
+    "branche_filter": [],
     "location_country_filter": [],
     "location_city_filter": [],
     "location_distance": null,
     "recruitmentType_filter": [],
     "recruitmentType_colorOnly": [],
-    "set_language": ""
+    "set_language": "UK"
 }

@@ -64,16 +64,16 @@ export const translate_static = {
 
 export const translate_dynamic = {
     branza: {
-        PL: ["Automotive","Budownictwo","E-commerce","Edukacja","Elektronika","Handel i Zakupy","HoReCa","HR","Inżynieria","IT i telekomunikacja","Księgowość, finanse i bankowość","Logistyka","Magazyn","Opakowania i Druk","Produkcja","Przemysł","Spożywcza","Usługi"],
-        EN: ["Automotive","Construction","E-commerce","Education","Electronics","Commerce and shopping","HoReCa","HR","Engineering","IT and telecommunications","Accounting, finance and banking","Logistics","Warehouse","Packaging & Printing","Manufacturing","Industry","Food","Services"],
-        RU: ["Автомобильная промышленность","Строительство","Электронная коммерция","Образование","Электроника","Торговля и шопинг","HoReCa","HR","Инженерия","ИТ и телекоммуникации","Бухгалтерия, финансы и банковское дело","Логистика","Склад","Упаковка и полиграфия","Производство","Промышленность","Продукты питания","Услуги"],
-        UK: ["Автомобільна промисловість","Будівництво","Електронна комерція","Освіта","Електроніка","Комерція та шопінг","HoReCa","HR","Інженерія","IT та телекомунікації","Бухгалтерія, фінанси та банківська справа","Логістика","Склад","Пакування та друк","Виробництво","Промисловість","Харчова промисловість","Послуги"]
+        PL: ["Automotive","Budownictwo","E-commerce","Edukacja","Elektronika","Handel i Zakupy","HoReCa","HR","Inżynieria","IT i telekomunikacja","Księgowość, finanse i bankowość","Logistyka","Magazyn","Opakowania i Druk","Produkcja","Przemysł","Spożywcza","Usługi","Farmacja i Kosmetologia","FMCG","Rolnictwo","Zdrowie"],
+        EN: ["Automotive","Construction","E-commerce","Education","Electronics","Commerce and shopping","HoReCa","HR","Engineering","IT and telecommunications","Accounting, finance and banking","Logistics","Warehouse","Packaging & Printing","Manufacturing","Industry","Food","Services","Farmacja i Kosmetologia???","FMCG","Rolnictwo???","Zdrowie"],
+        RU: ["Автомобильная промышленность","Строительство","Электронная коммерция","Образование","Электроника","Торговля и шопинг","HoReCa","HR","Инженерия","ИТ и телекоммуникации","Бухгалтерия, финансы и банковское дело","Логистика","Склад","Упаковка и полиграфия","Производство","Промышленность","Продукты питания","Услуги","Farmacja i Kosmetologia???","FMCG","Rolnictwo???","Zdrowie"],
+        UK: ["Автомобільна промисловість","Будівництво","Електронна комерція","Освіта","Електроніка","Комерція та шопінг","HoReCa","HR","Інженерія","IT та телекомунікації","Бухгалтерія, фінанси та банківська справа","Логістика","Склад","Пакування та друк","Виробництво","Промисловість","Харчова промисловість","Послуги","Farmacja i Kosmetologia???","FMCG","Rolnictwo???","Zdrowie"]
     },
     forma: {
-        PL: ["Umowa o pracę","Umowa Zlecenia"],
-        EN: ["Contract of employment","Contract of mandate"],
-        RU: ["Трудовой договор","Договор поручения"],
-        UK: ["Трудовий договір","Договір доручення"]
+        PL: ["Umowa o pracę","Umowa Zlecenia","B2B","kontrakt"],
+        EN: ["Contract of employment","Contract of mandate","B2B","kontrakt???"],
+        RU: ["Трудовой договор","Договор поручения","B2B","kontrakt???"],
+        UK: ["Трудовий договір","Договір доручення","B2B","kontrakt???"]
     },
     wymiar: {
         PL: ["Część etatu","Pełny etat","Tymczasowa"],
