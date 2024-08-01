@@ -1,18 +1,16 @@
 {
     "location_visible": true,
-    "remote_visible": false,
-    "relocation_visible": false,
+    "remote_visible": true,
+    "relocation_visible": true,
     "branche_visible": true,
-    "language_visible": false,
-    "remote_filter": false,
-    "language_filter": [
-        "uk"
-    ],
+    "language_visible": true,
+    "remote_filter": true,
+    "language_filter": [],
     "branche_filter": [],
     "location_country_filter": [],
     "location_city_filter": [],
     "location_distance": null,
     "recruitmentType_filter": [],
     "recruitmentType_colorOnly": [],
-    "set_language": "UK"
+    "set_language": null
 }
